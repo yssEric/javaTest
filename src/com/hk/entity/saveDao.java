@@ -46,9 +46,9 @@ public class saveDao {
     }
 
     /**
-     * 内部类
+     * 私有内部类（只有本类使用，这种写法最佳）
      */
-    public class MapperEn implements MapperIf {
+    private class MapperEn implements MapperIf {
 
         @Override
         public Object mapperObj(ResultSet res) throws SQLException {
